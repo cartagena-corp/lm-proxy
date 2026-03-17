@@ -1,0 +1,28 @@
+{
+  "rewrites": [
+    {
+      "source": "/es",
+      "destination": "https://lm-landing.vercel.app/es"
+    },
+    {
+      "source": "/es/:path*",
+      "destination": "https://lm-landing.vercel.app/es/:path*"
+    },
+    {
+      "source": "/en",
+      "destination": "https://lm-landing.vercel.app/en"
+    },
+    {
+      "source": "/en/:path*",
+      "destination": "https://lm-landing.vercel.app/en/:path*"
+    },
+    {
+      "source": "/",
+      "destination": "https://lm-landing.vercel.app/"
+    },
+    {
+      "source": "/:path*",
+      "destination": "https://lm-front-three.vercel.app/:path*"
+    }
+  ]
+}

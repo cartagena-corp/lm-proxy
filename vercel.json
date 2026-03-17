@@ -1,27 +1,4 @@
 {
-  "trailingSlash": false,
-  "redirects": [
-    {
-      "source": "/es/",
-      "destination": "/es",
-      "permanent": true
-    },
-    {
-      "source": "/en/",
-      "destination": "/en",
-      "permanent": true
-    },
-    {
-      "source": "/es/:path*/",
-      "destination": "/es/:path*",
-      "permanent": true
-    },
-    {
-      "source": "/en/:path*/",
-      "destination": "/en/:path*",
-      "permanent": true
-    }
-  ],
   "rewrites": [
     {
       "source": "/",
@@ -32,11 +9,19 @@
       "destination": "https://lm-landing.vercel.app/es"
     },
     {
+      "source": "/es/",
+      "destination": "https://lm-landing.vercel.app/es"
+    },
+    {
       "source": "/es/:path*",
       "destination": "https://lm-landing.vercel.app/es/:path*"
     },
     {
       "source": "/en",
+      "destination": "https://lm-landing.vercel.app/en"
+    },
+    {
+      "source": "/en/",
       "destination": "https://lm-landing.vercel.app/en"
     },
     {

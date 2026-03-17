@@ -1,6 +1,10 @@
 {
   "rewrites": [
     {
+      "source": "/",
+      "destination": "https://lm-landing.vercel.app/"
+    },
+    {
       "source": "/es",
       "destination": "https://lm-landing.vercel.app/es"
     },
@@ -17,8 +21,20 @@
       "destination": "https://lm-landing.vercel.app/en/:path*"
     },
     {
-      "source": "/",
-      "destination": "https://lm-landing.vercel.app/"
+      "source": "/_astro/:path*",
+      "destination": "https://lm-landing.vercel.app/_astro/:path*"
+    },
+    {
+      "source": "/favicon.ico",
+      "destination": "https://lm-landing.vercel.app/favicon.ico"
+    },
+    {
+      "source": "/favicon.svg",
+      "destination": "https://lm-landing.vercel.app/favicon.svg"
+    },
+    {
+      "source": "/favicon-white.webp",
+      "destination": "https://lm-landing.vercel.app/favicon-white.webp"
     },
     {
       "source": "/:path*",

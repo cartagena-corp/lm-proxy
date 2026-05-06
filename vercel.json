@@ -59,6 +59,14 @@
     {
       "source": "/:path*",
       "destination": "https://lm-front-three.vercel.app/:path*"
+    },
+    {
+      "source": "/examly/:path*",
+      "destination": "https://kenn-assessment-platform.vercel.app/:path*"
+    },
+    {
+      "source": "/examly/:path*",
+      "destination": "https://v0-assessment-platform-phi.vercel.app/:path*"
     }
   ]
 }
